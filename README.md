@@ -1,34 +1,28 @@
-const anmol = {
+const mohamedHamdy = {
     pronouns: "He" | "Him",
-    code: ["TypeScript", "Javascript", "Python", "Dart"],
-    askMeAbout: ["web dev", "app dev", "cloud computing", "UI/UX", "tech trends"],
+    code: ["JavaScript", "Java", "React", "HTML", "CSS", "BPMN"],
+    askMeAbout: ["BPM development", "Frontend development", "process modeling", "Camunda", "tech trends"],
     technologies: {
         frontEnd: {
-            js: ["React", "Next.js"],
-            css: ["Sass", "Tailwind", "Bootstrap"],
-            uiLibraries: ["Material UI", "Ant Design", "Chakra UI"],
+            js: ["React"],
+            css: ["Tailwind", "Bootstrap"],
+            uiLibraries: [],
         },
         backEnd: {
-            js: ["Node", "Express", "NestJS"],
-            python: ["Flask"],
+            java: ["Spring Basics"],
         },
-        mobileApp: {
-            crossPlatform: ["Flutter"],
-        },
-        devOps: ["Docker🐳", "CI/CD", "Nginx", "GitHub Actions"],
-        cloudServices: {
-            aws: ["AWS Fargate", "EC2", "S3", "Lambda", "CloudWatch", "RDS"],
-        },
-        databases: ["PostgreSQL", "MongoDB", "SQLite", "Firebase Realtime DB", "redis"],
-        misc: ["Socket.IO", "REST APIs", "WebSockets", "Cloud Functions"],
-        generativeAI: ["GPT", "Vectorization"],
+        bpmTools: ["Camunda BPM", "BPMN", "DMN", "Jenkins"],
+        devOps: ["Git", "GitHub", "Jenkins"],
+        cloudServices: [],
+        databases: [],
+        misc: ["REST APIs", "Modeling with Camunda Modeler", "Process Automation"],
+        learning: ["Advanced React", "State Management", "Fullstack Integration"],
     },
     architecture: {
-        frontEnd: ["SPA", "SSR"],
-        backEnd: ["microservices", "monolithic", "serverless"],
-        devOps: ["CloudFormation", "Serverless Framework"],
-        databases: ["Relational", "NoSQL", "In-memory"],
+        frontEnd: ["SPA"],
+        backEnd: ["monolithic"],
+        bpm: ["workflow automation", "approval processes"],
     },
-    currentFocus: "Leading a way in generative AI innovation",
-    funFact: "I can debug faster with a coffee in hand!"
+    currentFocus: "Finding a role in BPM or Frontend Development to apply and grow my skills",
+    funFact: "I started my tech journey from the countryside, and I’m building towards smart city solutions 🚀"
 };
